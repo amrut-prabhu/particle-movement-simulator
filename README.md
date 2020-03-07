@@ -4,6 +4,11 @@ Authors: [Amrut Prabhu](https://github.com/amrut-prabhu) and [Anubhav](https://g
 
 This repository includes 3 parallel computing implementations to simulate the movement of circular particles within a 2D square surface for a certain number of time steps. Particles may change their velocities (speed and direction) upon collising with other particles or colliding with the walls of the square.
 
+APIs used for parallel programming on different architectures:
+- [OpenMP](https://computing.llnl.gov/tutorials/openMP/): Shared Memory Parallel Programming
+- [CUDA](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html): GPU Parallel Programming
+- [MPI](https://computing.llnl.gov/tutorials/mpi/): Distributed Memory Programming
+
 ## Problem Description and Results
 
 Refer to the following files:
