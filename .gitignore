@@ -1,0 +1,15 @@
+### Ignore all files without extension (like C executables) ###
+# Ignore everything
+*
+# Unignore anything that is a directory
+!*/
+# Unignore all files with an extension
+!*.*
+
+*.o
+
+*.exe
+
+.vscode/
+
+*.code-workspace
